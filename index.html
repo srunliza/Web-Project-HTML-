@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team 06</title>
+    <style>
+        body {
+            background: #ccc;
+        }
+
+        nav {
+            display: flex;
+            background-color: black;
+            height: 60px;
+            padding: 8px;
+            justify-content: center;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding-right: 20px;
+
+        }
+
+        #wrap-page {
+            width: 1170px;
+            margin: 0px auto;
+            overflow: hidden;
+            background: #fff;
+            padding: 15px;
+        }
+
+        .text {
+            color: rgb(117, 78, 78);
+            padding: 100px 100px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        #banner {
+            position: relative;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            padding-left: 400px;
+            padding-top: 16px;
+            margin: 0px;
+        }
+
+        .input-text {
+            color: white;
+            padding-top: 8px;
+        }
+
+        .wrapper {
+            margin-top: 50px;
+        }
+
+        .team {
+            display: flex;
+            justify-content: center;
+            width: auto;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+
+        .team .team-number {
+            background: #f0f0ff;
+            margin: 30px;
+            margin-bottom: 50px;
+            width: 300px;
+            padding: 20px;
+            line-height: 20px;
+            color: #8e8b8b;
+            position: relative;
+            border-radius: 10px;
+        }
+
+        .team .team-number .team-img {
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: #fff;
+        }
+
+        .team-img>img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            padding: 5px
+        }
+
+        .team-number h3 {
+            margin-top: 50px;
+            color: rgb(39, 140, 187);
+            font-size: 15px;
+        }
+
+        .service-area {
+            border: 0.5px solid black;
+            width: 340px;
+            height: 270px;
+        }
+
+        .service-area,
+        table {
+            border-collapse: collapse;
+        }
+
+        .tbl {
+            display: flex;
+            justify-content: center;
+            width: auto;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+
+        .tbl .tbl-member {
+            margin: 30px;
+            margin-bottom: 50px;
+            width: 280px;
+            padding: 20px;
+            line-height: 20px;
+            color: #7c6d6d;
+            position: relative;
+        }
+
+        .tbl .tbl-member .tbl-img {
+            position: absolute;
+            top: -100px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 330px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap-page">
+        <div id="header">
+            <nav>
+                <div class="input-text">
+                    <label style="margin-right: 5px" for="#">Search</label>
+                    <input type="search" />
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#content">Porfolio</a></li>
+                    <li><a href="#our-team">Our Team</a></li>
+                    <li><a href="#our-service">Our Service</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="banner">
+            <img src="Images/powerpoint-background-84.jpg" style="width: 100%;" />
+            <div class="text">
+                <h1 style="font-size: 48px;font-weight: 300;font-style: oblique;">We help your to solve
+                    your</br>Buissness Problem</h1>
+                <p style="background-color: #754e4e; text-align: center; font-style: italic;"><a href="#"
+                        style="color: #fff; text-decoration: none;">More Information</a></p>
+            </div>
+        </div>
+        <div id="content">
+            <h1 style="text-align: center; color: black;">Porfolio</h1>
+            <table style="margin: auto;">
+                <tbody>
+                    <tr>
+                        <td><img src="Images/1.jpg" style="width: 375px; padding: 0;" /></td>
+                        <td><img src="Images/2.jpg" style="width: 375px; padding: 0;" /></td>
+                        <td><img src="Images/3.jpg" style="width: 375px; padding: 0;" /></td>
+                    </tr>
+                    <tr>
+                        <td><img src="Images/4.jpg" style="width: 375px; padding: 0;" /></td>
+                        <td><img src="Images/5.jpg" style="width: 375px; padding: 0;"></td>
+                        <td><img src="Images/6.jpg" style="width: 375px; padding: 0;" /></td>
+                    </tr>
+                    </tobody>
+            </table>
+        </div>
+        <div id="our-team" class="wrapper">
+            <h1  style="text-align: center;">OUR TEAM</h1>
+            <div class="team">
+                <div class="team-number">
+                    <div class="team-img">
+                        <img src="Images/lisa.jpg" />
+                    </div>
+                    <h3>Srun Liza</h3>
+                    <p>Web Developer</p>
+                    <hr />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio, est tempora eum
+                        tempore dolore eligendi, sunt vitae consequuntur, reiciendis libero. Ipsam unde porro
+                        reprehenderit soluta labore cumque dolor cum?</p>
+                </div>
+                <div class="team-number">
+                    <div class="team-img">
+                        <img src="Images/phanit.jpg" />
+                    </div>
+                    <h3>Yam Phanit</h3>
+                    <p>Software Developer</p>
+                    <hr />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem maiores eaque fugit sint
+                        tenetur ad laborum earum illo similique, ea atque veniam accusantium vel consequatur asperiores?
+                        Repellat necessitatibus optio veritatis.</p>
+
+                </div>
+            </div>
+        </div>
+        <div id="our-service">
+            <h1 style="text-align: center;">Our Service</h1>
+            <table style="margin: auto;">
+                <tr>
+                    <td class="service-area">
+                        <div class="tbl">
+                            <div class="tbl-member">
+                                <div class="tbl-img">
+                                    <img src="Images/service/1.png" style="width: 70px; padding: 10px;" />
+                                    <h3 style="color: black; font-style: italic;"><u><b>Computer Service</b></u></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt numquam
+                                    cupiditate earum sed accusamus. Consequatur facilis quod porro ab dolor est quae
+                                    corrupti autem ipsam accusamus, dolorum sit vitae tenetur?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="service-area">
+                        <div class="tbl">
+                            <div class="tbl-member">
+                                <div class="tbl-img">
+                                    <img src="Images/service/6.png" style="width: 70px; padding: 10px;" />
+                                    <h3 style="color: black; font-style: italic;"><u><b>Interior Design</b></u></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt numquam
+                                    cupiditate earum sed accusamus. Consequatur facilis quod porro ab dolor est quae
+                                    corrupti autem ipsam accusamus, dolorum sit vitae tenetur?</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </td>
+                    <td class="service-area">
+                        <div class="tbl">
+                            <div class="tbl-member">
+                                <div class="tbl-img">
+                                    <img src="Images/service/3.png" style="width: 70px; padding: 10px;" />
+                                    <h3 style="color: black; font-style: italic;"><u><b>Online Service</b></u></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt numquam
+                                    cupiditate earum sed accusamus. Consequatur facilis quod porro ab dolor est quae
+                                    corrupti autem ipsam accusamus, dolorum sit vitae tenetur?</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="service-area">
+                        <div class="tbl">
+                            <div class="tbl-member">
+                                <div class="tbl-img">
+                                    <img src="Images/service/4.png" style="width: 70px; padding: 10px;" />
+                                    <h3 style="color: black; font-style: italic;"><u><b>Creative Idea</b></u></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt numquam
+                                    cupiditate earum sed accusamus. Consequatur facilis quod porro ab dolor est quae
+                                    corrupti autem ipsam accusamus, dolorum sit vitae tenetur?</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </td>
+                    <td class="service-area">
+                        <div class="tbl">
+                            <div class="tbl-member">
+                                <div class="tbl-img">
+                                    <img src="Images/service/5.png" style="width: 70px; padding: 10px;" />
+                                    <h3 style="color: black; font-style: italic;"><u><b>Unlimited Support</b></u></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt numquam
+                                    cupiditate earum sed accusamus. Consequatur facilis quod porro ab dolor est quae
+                                    corrupti autem ipsam accusamus, dolorum sit vitae tenetur?</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </td>
+                    <td class="service-area">
+                        <div class="tbl">
+                            <div class="tbl-member">
+                                <div class="tbl-img">
+                                    <img src="Images/service/2.png" style="width: 70px; padding: 10;" />
+                                    <h3 style="color: black; font-style: italic;"><u><b>Photography</b></u></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt numquam
+                                    cupiditate earum sed accusamus. Consequatur facilis quod porro ab dolor est quae
+                                    corrupti autem ipsam accusamus, dolorum sit vitae tenetur?</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="contact">
+            <h1 style="text-align: left; color: red; padding-left: 10px; font-size: 48px;">Contact Us</h1>
+            <hr style="width: 100px; border: 5px solid red; margin: 20px 20px; border-radius: 4px;"/>
+            <p style="padding-left: 20px;">Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+            <form action="/submit.php" method="post">
+                <table>
+                    <tr>
+                        <td style="padding-left: 20px;"><label>Name</label></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-bottom: 15px; padding-left: 20px;"><input type="text" style="padding: 5px 150px;"/></tr>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 20px;"><label>Email</label></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-bottom: 15px;padding-left: 20px;"><input type="email" style="padding: 5px 150px;" /></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 20px;"><label>Message</label></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-bottom: 15px; padding-left: 20px;"><input type="text" style="padding: 5px 150px;" /></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 20px; padding-bottom: 30px;"><button type="submit" style="background-color: red; color: white; width: 100%; border-radius: 5px;border: none;">Send Message</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <center>
+            <p>© Copyright 2022 websit created with by Lisa and Phanit (Team 06)</p>
+        </center>
+    </div>
+    <footer>
+        
+    </footer>
+</body>
+
+</html>
